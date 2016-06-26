@@ -1,8 +1,8 @@
- # pdusms
+ #pdusms
 
- ## Android app
+ ##Android app
 
- ### Sending data messages and text messages.
+ ###Sending data messages and text messages.
 
 ```xml
       <uses-permission android:name="android.permission.SEND_SMS"/>
