@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+              android:layout_marginTop="50dp"
+              android:padding="10dp"
+        >
+
+    <EditText android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:inputType="phone"
+              android:hint="@string/txtPhoneNo"
+              android:id="@+id/edtPhoneNo"/>
+    <EditText android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:hint="@string/txtContent"
+              android:lines="3"
+              android:id="@+id/edtContent"/>
+
+    <Button android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_green"
+            android:text="@string/txtSendData"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:id="@+id/btnSendData"/>
+    <Button android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_green"
+            android:text="@string/txtSendText"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:id="@+id/btnSendText"/>
+
+</LinearLayout>
+

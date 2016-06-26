@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PduSms</string>
+    <string name="action_settings">设置</string>
+    <string name="txtPhoneNo">请输入手机号码</string>
+    <string name="txtContent">请输入短信内容</string>
+    <string name="txtSendData">发送数据短信</string>
+    <string name="txtSendText">发送文本短信</string>
+
+</resources>
